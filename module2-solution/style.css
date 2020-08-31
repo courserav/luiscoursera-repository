@@ -1,32 +1,140 @@
-h1 {
+h1{
 	text-align: center;
+	margin: 50px;
 
 }
 
-#boxMenu {
-	border: 1px solid black;
-
-}
-
-.row {
+.row{
 
 	width: 100%;
 }
 
-@media (min-width: 992px) {
-	.col-1, .col-2, .col-3 {
 
-		width: 33%;
-	}
+#menuBox1{
+
+	background-color: blue;
 
 }
 
-@media (min-width: 768px and max-width: 991px) {
+#menuBox2{
 
+	background-color: red;
+
+}
+
+#menuBox3{
+
+	background-color: yellow;
+
+}
+
+#menuContentBox{
+
+	background-color: gray;
+	border: 1px solid black;
+	margin: 2px;
+
+}
+
+#menuContentBox p{
+
+	margin: 20px;
+	word-wrap: break-word;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-1{
+
+		float: left;
+		width: 33%;
+
+	}
+	.col-lg-1 h2{
+
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 84%;
+	margin-top: 0%;
+
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-1{
+
+		float: left;
+		width: 49%;
+		
+	}
+	.col-md-1 h2{
+
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 77.5%;
+	margin-top: 0%;
+
+	}
+
+	.col-md-2{
+
+		float: left;
+		width: 99.5%;
+
+	}
+	.col-md-2 h2{
+
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 89%;
+	margin-top: 0%;
+
+	}
+
+	.col-md-3{
+
+		float: right;
+		width: 49%;
+	}
+	.col-md-3 h2{
+
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 77.5%;
+	margin-top: 0%;
+
+	}
 
 }
 
 @media (max-width: 767px) {
 
+	.col-sm-1{
+
+		float: left;
+		width: 95%;
+		
+	
+	}
+	.col-sm-1 h2{
+
+	border: 1px solid black;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-left: 84%;
+	margin-top: 0%;
+	}
 
 }
